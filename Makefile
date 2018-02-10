@@ -6,7 +6,7 @@ PROJECT_VERSION = 2.3.4
 DEPS = goldrush
 dep_goldrush = git https://github.com/basho/goldrush 0.1.9
 
-DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon dep_emq_reloader \
+DEPS += emqttd emq_modules emq_dashboard emq_retainer emq_recon emq_reloader \
         emq_auth_mysql emq_sn emq_coap emq_stomp emq_redis_hook
          
 
